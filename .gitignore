@@ -1,0 +1,13 @@
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+node_modules/
+dist/
+
+# Local tooling files
+.DS_Store
+.vscode/*
+!.vscode/settings.json
